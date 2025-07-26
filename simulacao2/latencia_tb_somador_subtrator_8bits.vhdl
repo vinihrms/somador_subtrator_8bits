@@ -30,49 +30,49 @@ begin
             x <= "00000000";
             y <= "11111111";
             op <= '0';
-            wait for 10 ns;
+            wait for 100 ns;
 
             --x00 – 0xFF
             op <= '1';
-            wait for 10 ns;
+            wait for 100 ns;
             
 
             --0xFF + 0x01
             x <= "11111111";
             y <= "00000001";
             op <= '0';
-            wait for 10 ns;
+            wait for 100 ns;
             
             --0xFF – 0x01
             op <= '1';
-            wait for 10 ns; 
+            wait for 100 ns; 
 
             -- 0xFE + 0xFE
             x <= "11111110";
             y <= "11111110";
             op <= '0';
-            wait for 10 ns;
+            wait for 100 ns;
             
             -- 0xFF + 0xFF
             x <= "11111111";
             y <= "11111111";
             op <= '0';
-            wait for 10 ns;
+            wait for 100 ns;
             
             --casos intermediarios
             x <= "00011111";
             y <= "01000000";
             op <= '1';
-            wait for 10 ns;
+            wait for 100 ns;
             
             x <= "00000000";
             y <= "00000001";
-            wait for 10 ns;
+            wait for 100 ns;
             
             x <= "11100000";
             y <= "00011111";
             op <= '0';
-            wait for 10 ns;
+            wait for 100 ns;
         
         wait;
     end process;

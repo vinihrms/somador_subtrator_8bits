@@ -1,0 +1,98 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sat Jul 26 19:21:38 2025
+[*]
+[dumpfile] "/home/vncs/1o Periodo/SD/somador_subtrator_pronto/simulacao2/simulacao2.ghw"
+[dumpfile_mtime] "Sat Jul 26 19:19:57 2025"
+[dumpfile_size] 1717
+[savefile] "/home/vncs/1o Periodo/SD/somador_subtrator_pronto/simulacao2/simulacao2_VISUAL.gtkw"
+[timestart] 0
+[size] 1920 1005
+[pos] -461 -203
+*0.000000 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_somador_subtrator_8bits.
+[sst_width] 278
+[signals_width] 268
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@200
+-SIGNED DECIMAL
+@420
+#{top.tb_somador_subtrator_8bits.x[7:0]} top.tb_somador_subtrator_8bits.x[7] top.tb_somador_subtrator_8bits.x[6] top.tb_somador_subtrator_8bits.x[5] top.tb_somador_subtrator_8bits.x[4] top.tb_somador_subtrator_8bits.x[3] top.tb_somador_subtrator_8bits.x[2] top.tb_somador_subtrator_8bits.x[1] top.tb_somador_subtrator_8bits.x[0]
+#{top.tb_somador_subtrator_8bits.y[7:0]} top.tb_somador_subtrator_8bits.y[7] top.tb_somador_subtrator_8bits.y[6] top.tb_somador_subtrator_8bits.y[5] top.tb_somador_subtrator_8bits.y[4] top.tb_somador_subtrator_8bits.y[3] top.tb_somador_subtrator_8bits.y[2] top.tb_somador_subtrator_8bits.y[1] top.tb_somador_subtrator_8bits.y[0]
+[color] 1
+top.tb_somador_subtrator_8bits.op
+@c00420
+[color] 3
+#{top.tb_somador_subtrator_8bits.s[7:0]} top.tb_somador_subtrator_8bits.s[7] top.tb_somador_subtrator_8bits.s[6] top.tb_somador_subtrator_8bits.s[5] top.tb_somador_subtrator_8bits.s[4] top.tb_somador_subtrator_8bits.s[3] top.tb_somador_subtrator_8bits.s[2] top.tb_somador_subtrator_8bits.s[1] top.tb_somador_subtrator_8bits.s[0]
+@28
+top.tb_somador_subtrator_8bits.s[7]
+top.tb_somador_subtrator_8bits.s[6]
+top.tb_somador_subtrator_8bits.s[5]
+top.tb_somador_subtrator_8bits.s[4]
+top.tb_somador_subtrator_8bits.s[3]
+top.tb_somador_subtrator_8bits.s[2]
+top.tb_somador_subtrator_8bits.s[1]
+top.tb_somador_subtrator_8bits.s[0]
+@1401600
+-group_end
+@420
+[color] 1
+top.tb_somador_subtrator_8bits.overflow
+@200
+-
+-
+-
+-HEX
+@22
+#{top.tb_somador_subtrator_8bits.x[7:0]} top.tb_somador_subtrator_8bits.x[7] top.tb_somador_subtrator_8bits.x[6] top.tb_somador_subtrator_8bits.x[5] top.tb_somador_subtrator_8bits.x[4] top.tb_somador_subtrator_8bits.x[3] top.tb_somador_subtrator_8bits.x[2] top.tb_somador_subtrator_8bits.x[1] top.tb_somador_subtrator_8bits.x[0]
+#{top.tb_somador_subtrator_8bits.y[7:0]} top.tb_somador_subtrator_8bits.y[7] top.tb_somador_subtrator_8bits.y[6] top.tb_somador_subtrator_8bits.y[5] top.tb_somador_subtrator_8bits.y[4] top.tb_somador_subtrator_8bits.y[3] top.tb_somador_subtrator_8bits.y[2] top.tb_somador_subtrator_8bits.y[1] top.tb_somador_subtrator_8bits.y[0]
+[color] 1
+top.tb_somador_subtrator_8bits.op
+@c00022
+[color] 3
+#{top.tb_somador_subtrator_8bits.s[7:0]} top.tb_somador_subtrator_8bits.s[7] top.tb_somador_subtrator_8bits.s[6] top.tb_somador_subtrator_8bits.s[5] top.tb_somador_subtrator_8bits.s[4] top.tb_somador_subtrator_8bits.s[3] top.tb_somador_subtrator_8bits.s[2] top.tb_somador_subtrator_8bits.s[1] top.tb_somador_subtrator_8bits.s[0]
+@28
+top.tb_somador_subtrator_8bits.s[7]
+top.tb_somador_subtrator_8bits.s[6]
+top.tb_somador_subtrator_8bits.s[5]
+top.tb_somador_subtrator_8bits.s[4]
+top.tb_somador_subtrator_8bits.s[3]
+top.tb_somador_subtrator_8bits.s[2]
+top.tb_somador_subtrator_8bits.s[1]
+top.tb_somador_subtrator_8bits.s[0]
+@1401202
+-group_end
+@22
+[color] 1
+top.tb_somador_subtrator_8bits.overflow
+@200
+-
+-
+-
+-BINARY
+@29
+#{top.tb_somador_subtrator_8bits.x[7:0]} top.tb_somador_subtrator_8bits.x[7] top.tb_somador_subtrator_8bits.x[6] top.tb_somador_subtrator_8bits.x[5] top.tb_somador_subtrator_8bits.x[4] top.tb_somador_subtrator_8bits.x[3] top.tb_somador_subtrator_8bits.x[2] top.tb_somador_subtrator_8bits.x[1] top.tb_somador_subtrator_8bits.x[0]
+#{top.tb_somador_subtrator_8bits.y[7:0]} top.tb_somador_subtrator_8bits.y[7] top.tb_somador_subtrator_8bits.y[6] top.tb_somador_subtrator_8bits.y[5] top.tb_somador_subtrator_8bits.y[4] top.tb_somador_subtrator_8bits.y[3] top.tb_somador_subtrator_8bits.y[2] top.tb_somador_subtrator_8bits.y[1] top.tb_somador_subtrator_8bits.y[0]
+[color] 1
+top.tb_somador_subtrator_8bits.op
+@c00029
+[color] 3
+#{top.tb_somador_subtrator_8bits.s[7:0]} top.tb_somador_subtrator_8bits.s[7] top.tb_somador_subtrator_8bits.s[6] top.tb_somador_subtrator_8bits.s[5] top.tb_somador_subtrator_8bits.s[4] top.tb_somador_subtrator_8bits.s[3] top.tb_somador_subtrator_8bits.s[2] top.tb_somador_subtrator_8bits.s[1] top.tb_somador_subtrator_8bits.s[0]
+@28
+top.tb_somador_subtrator_8bits.s[7]
+top.tb_somador_subtrator_8bits.s[6]
+top.tb_somador_subtrator_8bits.s[5]
+top.tb_somador_subtrator_8bits.s[4]
+top.tb_somador_subtrator_8bits.s[3]
+top.tb_somador_subtrator_8bits.s[2]
+top.tb_somador_subtrator_8bits.s[1]
+top.tb_somador_subtrator_8bits.s[0]
+@1401209
+-group_end
+@29
+[color] 1
+top.tb_somador_subtrator_8bits.overflow
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,19 +1,19 @@
 v 4
-file . "tb_somador_subtrator_8bits.vhdl" "2ea2ce8502f2ee17e0d3fb54558c85a5471273ca" "20250717005134.522":
+file . "tb_somador_subtrator_8bits.vhdl" "2ea2ce8502f2ee17e0d3fb54558c85a5471273ca" "20250726190851.908":
   entity tb_somador_subtrator_8bits at 1( 0) + 0 on 21;
   architecture testbench of tb_somador_subtrator_8bits at 4( 50) + 0 on 22;
-file . "somador_subtrator_8bits.vhdl" "fcbcfdf64462e3f8414e63690d3c85a704fc7854" "20250717005134.522":
+file . "somador_subtrator_8bits.vhdl" "fcbcfdf64462e3f8414e63690d3c85a704fc7854" "20250726190851.908":
   entity somador_subtrator_8bits at 1( 0) + 0 on 19;
   architecture estrutural of somador_subtrator_8bits at 11( 260) + 0 on 20;
-file . "somador_1bit.vhdl" "1f47e6d7bd7f39d1ca8542809b870225682d2fe5" "20250717005134.521":
+file . "somador_1bit.vhdl" "1f47e6d7bd7f39d1ca8542809b870225682d2fe5" "20250726190851.907":
   entity somador_1bit at 1( 0) + 0 on 17;
   architecture soma of somador_1bit at 11( 172) + 0 on 18;
-file . "soma_8b.vhdl" "b0cdeacbfc5204822e8ba6a4cbd7e9208777eb62" "20250717005134.521":
+file . "soma_8b.vhdl" "b0cdeacbfc5204822e8ba6a4cbd7e9208777eb62" "20250726190851.907":
   entity soma_8b at 1( 0) + 0 on 15;
   architecture soma_8b of soma_8b at 11( 229) + 0 on 16;
-file . "mux2x8.vhdl" "6c052474e269d5799ab68a64dc2bee2af7d73e95" "20250717005134.521":
+file . "mux2x8.vhdl" "6c052474e269d5799ab68a64dc2bee2af7d73e95" "20250726190851.907":
   entity mux2x8 at 1( 0) + 0 on 13;
   architecture comuta of mux2x8 at 10( 231) + 0 on 14;
-file . "inversor_8bits.vhdl" "d191223377f978b2bcf74a4d1d433bb9e6c7a8a9" "20250717005134.521":
+file . "inversor_8bits.vhdl" "d191223377f978b2bcf74a4d1d433bb9e6c7a8a9" "20250726190851.907":
   entity inversor_8bits at 1( 0) + 0 on 11;
   architecture inversor of inversor_8bits at 8( 142) + 0 on 12;

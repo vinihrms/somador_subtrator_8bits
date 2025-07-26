@@ -79,37 +79,28 @@ O testbench implementa os seguintes casos obrigatórios:
 
 ```
 somador_subtrator_pronto/
-├── README.md                           # Documentação do projeto
-├── somador_subtrator_8bits.vhdl        # Módulo principal: somador-subtrator de 8 bits
-├── soma_8b.vhdl                        # Somador de 8 bits
-├── somador_1bit.vhdl                   # Full-adder de 1 bit
-├── mux2x8.vhdl                         # Multiplexador 2x8
-├── inversor_8bits.vhdl                 # Inversor de 8 bits
-├── tb_somador_subtrator_8bits.vhdl     # Testbench
-├── simulacao1.ghw                      # Arquivo de simulação
-├── simulacao1_ok.gtkw                  # Configuração GTKWave
-└── work-obj93.cf                       # Arquivo de compilação GHDL
-```
+  simulacao1/
+    ├── somador_subtrator_8bits.vhdl        # Módulo principal: somador-subtrator de 8 bits
+    ├── soma_8b.vhdl                        # Somador de 8 bits
+    ├── somador_1bit.vhdl                   # Full-adder de 1 bit
+    ├── mux2x8.vhdl                         # Multiplexador 2x8
+    ├── inversor_8bits.vhdl                 # Inversor de 8 bits
+    ├── tb_somador_subtrator_8bits.vhdl     # Testbench
+    ├── simulacao1.ghw                      # Arquivo de simulação
+    ├── simulacao1_VISUAL.gtkw                  # Configuração GTKWave para melhor visualização
+    └── work-obj93.cf                       # Arquivo de compilação GHDL
+  simulacao1/
+    ├── latencia_somador_subtrator_8bits.vhdl
+    ├── latencia_soma_8b.vhdl
+    ├── latencia_somador_1bit.vhdl
+    ├── latencia_mux2x8.vhdl
+    ├── latencia_inversor_8bits.vhdl
+    ├── latencia_tb_somador_subtrator_8bits.vhdl
+    ├── latencia_simulacao2.ghw
+    ├── latencia_simulacao2_VISUAL.gtkw
+    └── latencia_work-obj93.cf
+  ├── README.md                           # Documentação do projeto
 
-## 🚀 Como Executar
-
-### Pré-requisitos
-- GHDL (simulador VHDL)
-- GTKWave (visualizador de formas de onda)
-
-### Compilação e Simulação
-```bash
-# Compilar todos os arquivos VHDL
-ghdl -a *.vhdl
-
-# Elaborar o testbench
-ghdl -e tb_somador_subtrator_8bits
-
-# Executar simulação
-ghdl -r tb_somador_subtrator_8bits --wave=simulacao.ghw
-
-# Visualizar resultados
-gtkwave simulacao.ghw
 ```
 
 ## Análise dos Resultados

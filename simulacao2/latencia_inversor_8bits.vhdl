@@ -7,7 +7,7 @@ end entity;
 
 architecture inversor of inversor_8bits is
 begin
-    nao_y <= not y;
+    nao_y <= not y after 4 ns;
 end architecture;
 
         

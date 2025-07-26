@@ -93,6 +93,6 @@ begin
         cout => carry(7)
     );
     
-    -- carry out final
-    c_out <= carry(7);
+    -- carry out final com latência
+    c_out <= carry(7) after 4 ns;
 end architecture;

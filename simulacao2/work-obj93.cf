@@ -1,0 +1,19 @@
+v 4
+file . "latencia_tb_somador_subtrator_8bits.vhdl" "d357bc5479eb48d4ce33ebecbe4441572924ec19" "20250726191947.297":
+  entity tb_somador_subtrator_8bits at 1( 0) + 0 on 21;
+  architecture testbench of tb_somador_subtrator_8bits at 4( 50) + 0 on 22;
+file . "latencia_somador_subtrator_8bits.vhdl" "fcbcfdf64462e3f8414e63690d3c85a704fc7854" "20250726191947.297":
+  entity somador_subtrator_8bits at 1( 0) + 0 on 19;
+  architecture estrutural of somador_subtrator_8bits at 11( 260) + 0 on 20;
+file . "latencia_somador_1bit.vhdl" "667633876ace893c534840babc10ba942fa9ec6d" "20250726191947.297":
+  entity somador_1bit at 1( 0) + 0 on 17;
+  architecture soma of somador_1bit at 11( 172) + 0 on 18;
+file . "latencia_soma_8b.vhdl" "2806610d4822374b479a942501d98a188ea369b8" "20250726191947.297":
+  entity soma_8b at 1( 0) + 0 on 15;
+  architecture soma_8b of soma_8b at 11( 229) + 0 on 16;
+file . "latencia_ mux2x8.vhdl" "73f98bbda42dc381b62701b4ff396b2b75df7937" "20250726191947.296":
+  entity mux2x8 at 1( 0) + 0 on 13;
+  architecture comuta of mux2x8 at 10( 231) + 0 on 14;
+file . "latencia_inversor_8bits.vhdl" "4e68dc05b0843c9798a6279cda2141af8fa3fcac" "20250726191947.296":
+  entity inversor_8bits at 1( 0) + 0 on 11;
+  architecture inversor of inversor_8bits at 8( 142) + 0 on 12;

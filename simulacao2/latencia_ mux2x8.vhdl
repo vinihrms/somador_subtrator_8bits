@@ -9,7 +9,7 @@ end entity;
 
 architecture comuta of mux2x8 is
 begin
-    -- comando vhdl de seleção de sinais
-    y <= a when sel = '0' else b;
+    -- comando vhdl de seleção de sinais com latência de 4ns
+    y <= a when sel = '0' else b after 4 ns;
 
 end architecture;
