@@ -1,12 +1,12 @@
 # Somador-Subtrator de 8 bits - NEANDER
 
-## 📋 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto implementa um **circuito combinacional somador-subtrator de 8 bits** desenvolvido em VHDL como parte da Atividade Avaliativa 02 da disciplina de Sistemas Digitais - Unioeste/Cascavel.
 
 O circuito é capaz de realizar operações de **adição** e **subtração** em duas palavras de 8 bits (X e Y), utilizando um sinal de controle para alternar entre as operações.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Implementar um circuito que opere adição (ADD) ou subtração (SUB) em palavras de 8 bits
 - Utilizar um sinal de operação `op` para escolha entre as operações
@@ -14,7 +14,7 @@ O circuito é capaz de realizar operações de **adição** e **subtração** em
 - Simular o funcionamento com casos de teste específicos
 - Implementar versão com latência de portas lógicas
 
-## ⚙️ Especificações Técnicas
+## Especificações Técnicas
 
 ### Sinais de Controle
 - **op = '0'** → Operação de ADIÇÃO (ADD)
@@ -30,7 +30,7 @@ O circuito é capaz de realizar operações de **adição** e **subtração** em
   - `s[7:0]`: Resultado da operação (8 bits)
   - `overflow`: Sinal de overflow/carry-out
 
-## 🏗️ Arquitetura do Sistema
+## Arquitetura do Sistema
 
 O projeto utiliza uma arquitetura modular baseada no **método do complemento de 2** para implementar a subtração, permitindo reutilizar o mesmo hardware de soma para ambas as operações.
 
@@ -55,7 +55,7 @@ Resultado = A + B + 0
 Resultado = A + (~B) + 1 = A - B (complemento de 2)
 ```
 
-## 🧪 Casos de Teste
+## Casos de Teste
 
 ### Simulação 01 - Sem Latência
 O testbench implementa os seguintes casos obrigatórios:
@@ -75,12 +75,12 @@ O testbench implementa os seguintes casos obrigatórios:
 - **Latência de 4ns** para cada porta lógica
 - Implementação: `sinal <= expressao after 4 ns;`
 
-## 📁 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```
 somador_subtrator_pronto/
-├── README.md                           # Este arquivo
-├── somador_subtrator_8bits.vhdl        # Módulo principal
+├── README.md                           # Documentação do projeto
+├── somador_subtrator_8bits.vhdl        # Módulo principal: somador-subtrator de 8 bits
 ├── soma_8b.vhdl                        # Somador de 8 bits
 ├── somador_1bit.vhdl                   # Full-adder de 1 bit
 ├── mux2x8.vhdl                         # Multiplexador 2x8
@@ -112,21 +112,16 @@ ghdl -r tb_somador_subtrator_8bits --wave=simulacao.ghw
 gtkwave simulacao.ghw
 ```
 
-## 🔍 Análise dos Resultados
+## Análise dos Resultados
 
 ### Verificação de Funcionamento
-- ✅ Adições simples funcionam corretamente
-- ✅ Subtrações implementadas via complemento de 2
-- ✅ Detecção de overflow operacional
-- ✅ Multiplexação entre B e ~B funcional
-- ✅ Propagação de carry adequada
+- Adições simples funcionam corretamente
+- Subtrações implementadas via complemento de 2
+- Detecção de overflow operacional
+- Multiplexação entre B e ~B funcional
+- Propagação de carry adequada
 
-### Características de Performance
-- **Tipo de Somador:** Carry-Ripple
-- **Delay:** Proporcional ao número de bits (8 níveis de propagação)
-- **Área:** Otimizada (reutilização de componentes)
-
-## 🎓 Conceitos Implementados
+## Conceitos Implementados
 
 - **Aritmética Binária:** Adição e subtração em complemento de 2
 - **Arquitetura Carry-Ripple:** Propagação sequencial de carry
@@ -134,14 +129,14 @@ gtkwave simulacao.ghw
 - **Modularidade:** Design hierárquico de componentes
 - **Reutilização:** Mesmo hardware para operações diferentes
 
-## 👥 Desenvolvimento
-**Autores:** João Pedro Rojas, Vinícius Almeida Hermes
+## Desenvolvimento
+**Autores:** João Pedro Rojas, Rafael Mendonça Vaz, Vinícius Almeida Hermes  
 **Curso:** Ciência da Computação  
-**Instituição:** UNIOESTE - Campus Cascavel  
+**Instituição:** Unioeste - Campus Cascavel  
 **Disciplina:** Sistemas Digitais  
 **Período:** 1º Período - 2025  
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos como parte das atividades da disciplina de Sistemas Digitais.
 
