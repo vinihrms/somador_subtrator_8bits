@@ -1,6 +1,6 @@
 [*]
 [*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
-[*] Sat Jul 26 19:18:52 2025
+[*] Sun Jul 27 14:16:17 2025
 [*]
 [dumpfile] "/home/vncs/1o Periodo/SD/somador_subtrator_pronto/simulacao1/simulacao1.ghw"
 [dumpfile_mtime] "Sat Jul 26 19:09:29 2025"
@@ -8,19 +8,20 @@
 [savefile] "/home/vncs/1o Periodo/SD/somador_subtrator_pronto/simulacao1/simulacao1_VISUAL.gtkw"
 [timestart] 0
 [size] 1920 1005
-[pos] -461 -203
-*-23.651537 10000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] -1 -1
+*-23.651537 26420000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] top.
 [treeopen] top.tb_somador_subtrator_8bits.
 [sst_width] 278
 [signals_width] 250
 [sst_expanded] 1
-[sst_vpaned_height] 298
-@201
+[sst_vpaned_height] 281
+@200
 -SIGNED DECIMAL
+@421
+#{top.tb_somador_subtrator_8bits.x[7:0]} top.tb_somador_subtrator_8bits.x[7] top.tb_somador_subtrator_8bits.x[6] top.tb_somador_subtrator_8bits.x[5] top.tb_somador_subtrator_8bits.x[4] top.tb_somador_subtrator_8bits.x[3] top.tb_somador_subtrator_8bits.x[2] top.tb_somador_subtrator_8bits.x[1] top.tb_somador_subtrator_8bits.x[0]
 @420
 #{top.tb_somador_subtrator_8bits.y[7:0]} top.tb_somador_subtrator_8bits.y[7] top.tb_somador_subtrator_8bits.y[6] top.tb_somador_subtrator_8bits.y[5] top.tb_somador_subtrator_8bits.y[4] top.tb_somador_subtrator_8bits.y[3] top.tb_somador_subtrator_8bits.y[2] top.tb_somador_subtrator_8bits.y[1] top.tb_somador_subtrator_8bits.y[0]
-#{top.tb_somador_subtrator_8bits.x[7:0]} top.tb_somador_subtrator_8bits.x[7] top.tb_somador_subtrator_8bits.x[6] top.tb_somador_subtrator_8bits.x[5] top.tb_somador_subtrator_8bits.x[4] top.tb_somador_subtrator_8bits.x[3] top.tb_somador_subtrator_8bits.x[2] top.tb_somador_subtrator_8bits.x[1] top.tb_somador_subtrator_8bits.x[0]
 [color] 1
 top.tb_somador_subtrator_8bits.op
 [color] 3
