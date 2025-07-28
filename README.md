@@ -87,7 +87,7 @@ somador_subtrator_pronto/
     ├── inversor_8bits.vhdl                 # Inversor de 8 bits
     ├── tb_somador_subtrator_8bits.vhdl     # Testbench
     ├── simulacao1.ghw                      # Arquivo de simulação
-    ├── simulacao1_VISUAL.gtkw                  # Configuração GTKWave para melhor visualização
+    ├── simulacao1_VISUAL.gtkw              # Configuração GTKWave para melhor visualização
     └── work-obj93.cf                       # Arquivo de compilação GHDL
   simulacao1/
     ├── latencia_somador_subtrator_8bits.vhdl
@@ -99,7 +99,7 @@ somador_subtrator_pronto/
     ├── latencia_simulacao2.ghw
     ├── latencia_simulacao2_VISUAL.gtkw
     └── latencia_work-obj93.cf
-  ├── README.md                           # Documentação do projeto
+  ├── README.md                             # Documentação do projeto
 
 ```
 
