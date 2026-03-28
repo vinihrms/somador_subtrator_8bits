@@ -1,4 +1,5 @@
 # Somador-Subtrator de 8 bits - NEANDER
+#### Autores: João Pedro Rojas, Rafael Mendonça Vaz, Vinícius Almeida Hermes
 
 ## Descrição do Projeto
 
